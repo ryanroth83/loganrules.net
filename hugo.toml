@@ -1,0 +1,7 @@
+baseURL = "loganrules.net"
+languageCode = "en-us"
+title = "My Resume"
+
+[module]
+  [[module.imports]]
+    path = "github.com/eddiewebb/hugo-resume"
