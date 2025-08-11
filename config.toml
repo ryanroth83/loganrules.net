@@ -20,7 +20,7 @@ showContact = true
 showBoards  = true
 showCertifications = false
 showSocializations = false
-sections = ["education","blog"]
+sections = ["education","3d printing","blog"]
 
 
 [params.google]
