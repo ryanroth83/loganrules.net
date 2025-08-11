@@ -1,8 +1,0 @@
-baseurl: https://loganrules.net
-languageCode: en-us
-title: Logan Rules
-defaultContentLanguage: en
-hasCJKLanguage: false
-disqusShortname: loganrules
-pagination:
-  pagerSize: 5
