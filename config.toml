@@ -8,9 +8,9 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Rollinsford, NH"
-email = "email@domain.com"
-favicon = "/favicon.ico"
+address = "Clarksville, OH"
+email = "ljsneed11@gmail.com"
+favicon = "/favicon2.ico"
 firstName = "Eddie"
 lastName = "Webbinaro"
 phone = "1-555-555-1234"
@@ -28,13 +28,10 @@ sections = ["skills","publications","creations","contributions","experience","ed
 [params.google.analytics]
 trackerID = "XX-123446-01"
 
-[[params.handles]]
-    name = "LinkedIn"
-    link = "https://www.linkedin.com/in/edwardwebb/"
 
 [[params.handles]]
     name = "GitHub"
-    link = "https://github.com/eddiewebb/"
+    link = "https://github.com/ljs2311/"
 
 [[params.handles]]
     name = "Keybase"
