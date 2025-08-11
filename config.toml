@@ -17,10 +17,10 @@ phone = "1-513-614-15134"
 profileImage = "/Logo.png"
 showQr = true
 showContact = true
-showBoards  = false
+showBoards  = true
 showCertifications = false
 showSocializations = false
-sections = ["skills","publications","creations","contributions","experience","education","blog"]
+sections = ["skills","creations","contributions","experience","education","blog"]
 
 
 [params.google]
