@@ -3,16 +3,16 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Eddie Webbinaro | Forcing Visits to use SSL</title>
+  <title>Logan Rules | Forcing Visits to use SSL</title>
   <meta name="description" content="">
 
   
   
-    <meta property="og:image" content="http://localhost:1313/img/TechChat.png" />
-    <meta property="og:title" content="Eddie Webbinaro | Forcing Visits to use SSL" />   
+    <meta property="og:image" content="http://localhost:1313/Logo.png" />
+    <meta property="og:title" content="Logan Rules | Forcing Visits to use SSL" />   
   
   <meta property="og:description" content="" />
-  <meta name="author" content="Eddie Webbinaro">
+  <meta name="author" content="Logan Sneed">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   
@@ -31,7 +31,7 @@
     <noscript><link rel="stylesheet" href="http://localhost:1313/css/tweaks.css"></noscript>
   <link rel="preload" href="http://localhost:1313/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="http://localhost:1313/css/resume-override.css"></noscript>
-  <meta name="generator" content="Hugo 0.147.8">
+  <meta name="generator" content="Hugo 0.148.2">
   
    
   
@@ -39,9 +39,9 @@
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
   <a class="navbar-brand js-scroll-trigger" href="#page-top">
-    <span class="d-block d-lg-none">Eddie Webbinaro</span>
+    <span class="d-block d-lg-none">Logan Sneed</span>
     <span class="d-none d-lg-block">
-      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/TechChat.png" alt="">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/Logo.png" alt="">
     </span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,27 +54,11 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="/#publications">Presentations</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="/#creations">Creations</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="/#contributions">Open Source</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
-      </li>
-      
-      <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#3d%20printing">3D Printing</a>
       </li>
       
       <li class="nav-item">
@@ -145,17 +129,17 @@
 <p>First you need to decide if you want to force every page on your site to use SSL, or only a particular sub-domain, or maybe just your admin directory.  Since the overhead is minimal there is no harm is forcing the entire domain to leverage SSL, but if it is a self-signed certificate for your personal use than you&rsquo;ll most certainly want to restrict its use to your own areas. This prevents users from seeing that nasty warning &ldquo;This server is not trusted&rdquo; You&rsquo;ll know if your using SSL because the url prefix changes from http to https (s for secure).</p>
 <h3 id="forcing-entire-domain-to-use-ssl">Forcing entire domain to use SSL</h3>
 <p><strong>You want any visit, any where to use ssl</strong>. This probably the simplest solution. Create or append to your htaccess file in the top directory of your server. Some people use a port check (80 is typically http, while 443 is https) but if you have alernate configs or the user just adds :8080 to the end of the url this method is useless. Instead check whether the https environmental variable is set, if not then redirect.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>RewriteCond %{HTTPS} !=on
-</span></span><span style="display:flex;"><span>RewriteRule ^(.*)$ https://%{SERVER_NAME}$1 \[R,L\]
-</span></span></code></pre></div><h3 id="forcing-sub-domains-to-use-ssl">Forcing sub-domains to use SSL</h3>
+<pre tabindex="0"><code>RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{SERVER_NAME}$1 \[R,L\]
+</code></pre><h3 id="forcing-sub-domains-to-use-ssl">Forcing sub-domains to use SSL</h3>
 <p>Maybe <strong>you only want mysecretarea.example.com to use SSL</strong>, that&rsquo;s easy enough. Its the same premise as above, but you move the htaccess file into the directory that corresponds to the subdomain. Also change the second line like below;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>RewriteCond %{HTTPS} !=on
-</span></span><span style="display:flex;"><span>RewriteRule ^(.*)$ https://mysecretarea.%{SERVER_NAME}$1 \[R,L\]
-</span></span></code></pre></div><h3 id="forcing-a-directory-to-use-ssl">Forcing a directory to use SSL</h3>
+<pre tabindex="0"><code>RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://mysecretarea.%{SERVER_NAME}$1 \[R,L\]
+</code></pre><h3 id="forcing-a-directory-to-use-ssl">Forcing a directory to use SSL</h3>
 <p>This method cn get a little hairier if your using aliases or redirects on top of this one. You&rsquo;ll need to consider what order the commands are read. The basic principle is like so.  <strong>You want all visits to example.com/admin to use ssl.</strong> Create a htaccess file in the parent directory.  Again will check for the https variable, but this time we also check for the sub-directory to be in the path.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>RewriteCond %{HTTPS} !=on
-</span></span><span style="display:flex;"><span>RewriteRule ^/admin/(.*)$ https://%{SERVER_NAME}/admin/$1 \[R,L\]
-</span></span></code></pre></div>
+<pre tabindex="0"><code>RewriteCond %{HTTPS} !=on
+RewriteRule ^/admin/(.*)$ https://%{SERVER_NAME}/admin/$1 \[R,L\]
+</code></pre>
 	    
 	</div>
     <div>
