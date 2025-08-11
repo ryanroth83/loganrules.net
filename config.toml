@@ -11,9 +11,9 @@ enableGitInfo = false
 address = "Clarksville, OH"
 email = "ljsneed11@gmail.com"
 favicon = "/favicon2.ico"
-firstName = "Eddie"
-lastName = "Webbinaro"
-phone = "1-555-555-1234"
+firstName = "Logan"
+lastName = "Sneed"
+phone = "1-513-614-15134"
 profileImage = "img/TechChat.png"
 showQr = true
 showContact = true
@@ -33,20 +33,6 @@ trackerID = "XX-123446-01"
     name = "GitHub"
     link = "https://github.com/ljs2311/"
 
-[[params.handles]]
-    name = "Keybase"
-    link = "https://keybase.io/edwardawebb"
-    icon = "keybase"
-    
-[[params.handles]]
-    name = "Bluesky"
-    link = "https://bsky.app/profile/webbinaro.dev"
-    icon = "bluesky"
-
-[[params.handles]]
-    link = "https://stackoverflow.com/users/82880/eddie"
-    name = "Stack Overflow"
-    icon = "stack-overflow"
 
 [outputs]
 home = ["HTML", "JSON"]
