@@ -1,6 +1,6 @@
 baseURL = "loganrules.net"
 languageCode = "en-us"
-title = "My Resume"
+title = "Logan Sneed's Site"
 
 [module]
   [[module.imports]]
