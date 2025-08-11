@@ -14,12 +14,12 @@ favicon = "/favicon2.ico"
 firstName = "Logan"
 lastName = "Sneed"
 phone = "1-513-614-15134"
-profileImage = "img/TechChat.png"
+profileImage = "/Logo.png"
 showQr = true
 showContact = true
 showBoards  = true
-showCertifications = true
-showSocializations = true
+showCertifications = false
+showSocializations = false
 sections = ["skills","publications","creations","contributions","experience","education","blog"]
 
 
