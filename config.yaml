@@ -23,6 +23,7 @@ params:
   - education
   - 3d_printing
   - blog
+  - my_computers
   google:
     analytics:
       trackerID: XX-123446-01
