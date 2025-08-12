@@ -4,6 +4,9 @@
   <div class="my-auto" id="projects-content">
     <h1 id="{{ urlize .Title }}">{{ .Title }}</h1>
     <p>{{ .Content }}</p>
+    {{ if eq .Title "3D Printing" }}
+      {{ partial "portfolio/3d printing.html" . }}
+    {{ end }}
     {{ range .Data.Pages.ByWeight }}
       {{ if ne .Type "markdown" }}
         {{ partial (printf "%s%s" .Type "Summary") . }}
