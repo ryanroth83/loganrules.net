@@ -22,8 +22,9 @@ params:
   sections:
   - education
   - 3d_printing
-  - blog
+  - Retro_Bowl
   - my_computers
+  - blog
   google:
     analytics:
       trackerID: XX-123446-01
