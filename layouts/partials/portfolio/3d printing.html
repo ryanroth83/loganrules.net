@@ -1,8 +1,7 @@
 <section class="portfolio-section">
   <h2>3D Printing</h2>
   <p>Welcome to the 3D Printing section! Here you'll find projects, tips, and resources related to 3D printing.</p>
-  {{ $currentSection := .Section }}
-  {{ $pages := where .Site.RegularPages "Section" $currentSection }}
+  {{ $pages := where .Site.RegularPages "File.Dir" "3d printing" }}
   {{ if $pages }}
     <ul>
       {{ range $pages }}
