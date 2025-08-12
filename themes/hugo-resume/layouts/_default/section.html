@@ -4,7 +4,6 @@
   <div class="my-auto" id="projects-content">
     <h1 id="{{ urlize .Title }}">{{ .Title }}</h1>
     <p>{{ .Content }}</p>
-  // ...existing code...
     {{ range .Data.Pages.ByWeight }}
       {{ if ne .Type "markdown" }}
         {{ partial (printf "%s%s" .Type "Summary") . }}

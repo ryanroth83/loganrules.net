@@ -1,0 +1,41 @@
+title: Logan Rules
+baseURL: https://loganrules.net/
+theme: hugo-resume
+languageCode: en-us
+PygmentsCodeFences: true
+PygmentsCodeFencesGuessSyntax: true
+PygmentsStyle: monokai
+enableGitInfo: false
+params:
+  address: Clarksville, OH
+  email: ljsneed11@gmail.com
+  favicon: /favicon.ico
+  firstName: Logan
+  lastName: Sneed
+  phone: 1-513-614-1513
+  profileImage: /Logo.png
+  showQr: true
+  showContact: true
+  showBoards: true
+  showCertifications: false
+  showSocializations: false
+  sections:
+  - education
+  - 3d_printing
+  - blog
+  google:
+    analytics:
+      trackerID: XX-123446-01
+  handles:
+  - name: GitHub
+    link: https://github.com/ljs2311/
+outputs:
+  home:
+  - HTML
+  - JSON
+taxonomies:
+  tag: tags
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

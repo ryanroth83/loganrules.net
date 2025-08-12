@@ -1,7 +1,7 @@
 <section class="portfolio-section">
   <h2>3D Printing</h2>
   <p>Welcome to the 3D Printing section! Here you'll find projects, tips, and resources related to 3D printing.</p>
-  {{ $projects := .Site.Data["3d printing"] }}
+  {{ $projects := index site.Data "3d_printing" }}
   {{ if $projects }}
     <ul>
       {{ range $projects }}

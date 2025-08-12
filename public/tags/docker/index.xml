@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on Eddie Webbinaro</title>
+    <title>Docker on Logan Rules</title>
     <link>http://localhost:1313/tags/docker/</link>
-    <description>Recent content in Docker on Eddie Webbinaro</description>
+    <description>Recent content in Docker on Logan Rules</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Jan 2020 17:09:26 +0000</lastBuildDate>
@@ -20,7 +20,7 @@
       <link>http://localhost:1313/projects/creations/docker-marketplace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/creations/docker-marketplace/</guid>
-      <description>&lt;p&gt;Provides required dependencies and additional utilities to simplify and codify the process of building, testing and delivering Atlassian plugins all the way to the live marketplace.&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;Executes integration/AUT level tests against all stated compatible versions for the product&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Uploads generated artifact to Atlassian marketplace&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Provides corresponding metadata indicating version, release notes, and compatibility&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Provides required dependencies and additional utilities to simplify and codify the process of building, testing and delivering Atlassian plugins all the way to the live marketplace.&lt;ul&gt; &lt;li&gt;Executes integration/AUT level tests against all stated compatible versions for the product&lt;/li&gt;&lt;li&gt;Uploads generated artifact to Atlassian marketplace&lt;/li&gt;&lt;li&gt;Provides corresponding metadata indicating version, release notes, and compatibility&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
