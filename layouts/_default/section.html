@@ -4,7 +4,8 @@
   <div class="my-auto" id="projects-content">
     <h1 id="{{ urlize .Title }}">{{ .Title }}</h1>
     <p>{{ .Content }}</p>
-    {{ if eq .Title "3D Printing" }}
+    {{ $sectionPath := .File.Dir | lower }}
+    {{ if or (in $sectionPath "3d printing") (in $sectionPath "3d-printing") }}
       {{ partial "portfolio/3d printing.html" . }}
     {{ end }}
     {{ range .Data.Pages.ByWeight }}
