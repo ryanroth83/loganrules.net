@@ -16,7 +16,7 @@ params:
   profileImage: /Logo.png
   showQr: true
   showContact: true
-  showBoards: true
+  showBoards: false
   showCertifications: false
   showSocializations: false
   sections:
