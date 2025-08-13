@@ -20,8 +20,8 @@ params:
   showCertifications: false
   showSocializations: false
   sections:
-  - Youtube
   - education
+  - Youtube
   - 3d_printing
   - my_computers
   - blog

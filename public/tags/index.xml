@@ -135,41 +135,6 @@
       <description></description>
     </item>
     <item>
-      <title>Apache</title>
-      <link>http://localhost:1313/tags/apache/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-      <guid>http://localhost:1313/tags/apache/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Redirect</title>
-      <link>http://localhost:1313/tags/redirect/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-      <guid>http://localhost:1313/tags/redirect/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rewrite</title>
-      <link>http://localhost:1313/tags/rewrite/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rewrite/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ssl</title>
-      <link>http://localhost:1313/tags/ssl/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ssl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Development</title>
-      <link>http://localhost:1313/tags/web-development/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web-development/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Atlassian Developer Ecosystem</title>
       <link>http://localhost:1313/tags/atlassian-developer-ecosystem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
