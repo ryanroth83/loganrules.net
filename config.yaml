@@ -15,7 +15,7 @@ params:
   phone: 1-513-614-1513
   profileImage: /Logo.png
   showQr: true
-  showContact: true
+  showContact: false
   showBoards: false
   showCertifications: false
   showSocializations: true
