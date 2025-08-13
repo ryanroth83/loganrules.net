@@ -1,17 +1,8 @@
 {
     "about": "About",
-    "blog": "Blog",
-    "certifications": "Certifications",
-    "creations": "Creations",
-    "contributions":"Open Source",
     "education": "Education",
-    "experience": "Experience",
-    "publications": "Presentations",
-    "skills": "Skills",
-    "socialization": "Socialization",
-    "3d printing": "3D Printing",
     "3d_printing": "3D Printing",
-    "my_computers": "My Computers",
+    "my_tech": "My Technology",
     "Games": "Games",
     "Youtube": "YouTube"
 }
