@@ -44,13 +44,6 @@
       <description>&lt;p&gt;Details about my computers.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Smash Karts</title>
-      <link>http://localhost:1313/smash_karts/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/smash_karts/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>BOSH release for Bamboo &amp; Remote Agents</title>
       <link>http://localhost:1313/projects/creations/bosh-agents/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
