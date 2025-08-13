@@ -18,20 +18,25 @@ params:
   showContact: true
   showBoards: false
   showCertifications: false
-  showSocializations: false
+  showSocializations: true
   sections:
-  - education
   - Youtube
+  - education
   - 3d_printing
   - my_computers
-  - blog
   - Games
   google:
     analytics:
       trackerID: XX-123446-01
   handles:
+  - name: Youtube
+    link: https://www.youtube.com/@logan_sneed/
   - name: GitHub
     link: https://github.com/ljs2311/
+  - name: Reddit
+    link: https://www.reddit.com/user/Rare-Perspective-474/
+  - name: Amazon Music
+    link: https://music.amazon.com/profiles/g47jxp4h5mwzjagfhanzjpzzfu
 outputs:
   home:
   - HTML
