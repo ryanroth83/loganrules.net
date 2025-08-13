@@ -20,11 +20,12 @@ params:
   showCertifications: false
   showSocializations: false
   sections:
+  - Youtube
   - education
   - 3d_printing
-  - Games
   - my_computers
   - blog
+  - Games
   google:
     analytics:
       trackerID: XX-123446-01
