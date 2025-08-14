@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-Hi, this is Logan Sneed's Website
+Hi, this is Logan Sneed's Website. I have a lot in here. I recomend using the nav bar to locate exactly where you want. Otherwise you may be scrolling for a while.
