@@ -1,6 +1,6 @@
 title: Logan Rules
 baseURL: https://loganrules.net/
-theme: hugo-resume
+theme: ["hugo-video", "hugo-resume"]
 languageCode: en-us
 PygmentsCodeFences: true
 PygmentsCodeFencesGuessSyntax: true
