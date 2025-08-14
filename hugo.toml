@@ -1,0 +1,7 @@
+baseURL = "loganrules.net"
+languageCode = "en-us"
+title = "Logan Sneed's Site"
+
+[module]
+  [[module.imports]]
+    path = "github.com/eddiewebb/hugo-resume"

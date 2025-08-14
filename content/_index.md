@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-Hi, this is Logan Sneed's Website
+Hi, This is Logan Sneed's Website
