@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Logan Rules</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://loganrules.net/tags/</link>
     <description>Recent content in Tags on Logan Rules</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Jan 2020 17:09:26 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://loganrules.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/tags/docker/</link>
+      <link>https://loganrules.net/tags/docker/</link>
       <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/docker/</guid>
+      <guid>https://loganrules.net/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>http://localhost:1313/tags/javascript/</link>
+      <link>https://loganrules.net/tags/javascript/</link>
       <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/javascript/</guid>
+      <guid>https://loganrules.net/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>JSON</title>
-      <link>http://localhost:1313/tags/json/</link>
+      <link>https://loganrules.net/tags/json/</link>
       <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/json/</guid>
+      <guid>https://loganrules.net/tags/json/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>http://localhost:1313/tags/node.js/</link>
+      <link>https://loganrules.net/tags/node.js/</link>
       <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/node.js/</guid>
+      <guid>https://loganrules.net/tags/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>REST APIs</title>
-      <link>http://localhost:1313/tags/rest-apis/</link>
+      <link>https://loganrules.net/tags/rest-apis/</link>
       <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rest-apis/</guid>
+      <guid>https://loganrules.net/tags/rest-apis/</guid>
       <description></description>
     </item>
     <item>
       <title>Atlassian Ecosystem</title>
-      <link>http://localhost:1313/tags/atlassian-ecosystem/</link>
+      <link>https://loganrules.net/tags/atlassian-ecosystem/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/tags/atlassian-ecosystem/</guid>
+      <guid>https://loganrules.net/tags/atlassian-ecosystem/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash/Shell</title>
-      <link>http://localhost:1313/tags/bash/shell/</link>
+      <link>https://loganrules.net/tags/bash/shell/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/tags/bash/shell/</guid>
+      <guid>https://loganrules.net/tags/bash/shell/</guid>
       <description></description>
     </item>
     <item>
       <title>BOSH</title>
-      <link>http://localhost:1313/tags/bosh/</link>
+      <link>https://loganrules.net/tags/bosh/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/tags/bosh/</guid>
+      <guid>https://loganrules.net/tags/bosh/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
-      <link>http://localhost:1313/tags/devops/</link>
+      <link>https://loganrules.net/tags/devops/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/tags/devops/</guid>
+      <guid>https://loganrules.net/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/tags/java/</link>
+      <link>https://loganrules.net/tags/java/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/tags/java/</guid>
+      <guid>https://loganrules.net/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Monit</title>
-      <link>http://localhost:1313/tags/monit/</link>
+      <link>https://loganrules.net/tags/monit/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/tags/monit/</guid>
+      <guid>https://loganrules.net/tags/monit/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://loganrules.net/tags/python/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://loganrules.net/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Xml/Xslt</title>
-      <link>http://localhost:1313/tags/xml/xslt/</link>
+      <link>https://loganrules.net/tags/xml/xslt/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/tags/xml/xslt/</guid>
+      <guid>https://loganrules.net/tags/xml/xslt/</guid>
       <description></description>
     </item>
     <item>
       <title>Agile</title>
-      <link>http://localhost:1313/tags/agile/</link>
+      <link>https://loganrules.net/tags/agile/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/agile/</guid>
+      <guid>https://loganrules.net/tags/agile/</guid>
       <description></description>
     </item>
     <item>
       <title>CI/CD Pipelines</title>
-      <link>http://localhost:1313/tags/ci/cd-pipelines/</link>
+      <link>https://loganrules.net/tags/ci/cd-pipelines/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ci/cd-pipelines/</guid>
+      <guid>https://loganrules.net/tags/ci/cd-pipelines/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuous Delivery</title>
-      <link>http://localhost:1313/tags/continuous-delivery/</link>
+      <link>https://loganrules.net/tags/continuous-delivery/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/continuous-delivery/</guid>
+      <guid>https://loganrules.net/tags/continuous-delivery/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuous Integration</title>
-      <link>http://localhost:1313/tags/continuous-integration/</link>
+      <link>https://loganrules.net/tags/continuous-integration/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/continuous-integration/</guid>
+      <guid>https://loganrules.net/tags/continuous-integration/</guid>
       <description></description>
     </item>
     <item>
       <title>Culture</title>
-      <link>http://localhost:1313/tags/culture/</link>
+      <link>https://loganrules.net/tags/culture/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/culture/</guid>
+      <guid>https://loganrules.net/tags/culture/</guid>
       <description></description>
     </item>
     <item>
       <title>Atlassian Developer Ecosystem</title>
-      <link>http://localhost:1313/tags/atlassian-developer-ecosystem/</link>
+      <link>https://loganrules.net/tags/atlassian-developer-ecosystem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/atlassian-developer-ecosystem/</guid>
+      <guid>https://loganrules.net/tags/atlassian-developer-ecosystem/</guid>
       <description></description>
     </item>
     <item>
       <title>Bamboo</title>
-      <link>http://localhost:1313/tags/bamboo/</link>
+      <link>https://loganrules.net/tags/bamboo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bamboo/</guid>
+      <guid>https://loganrules.net/tags/bamboo/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitbucket</title>
-      <link>http://localhost:1313/tags/bitbucket/</link>
+      <link>https://loganrules.net/tags/bitbucket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bitbucket/</guid>
+      <guid>https://loganrules.net/tags/bitbucket/</guid>
       <description></description>
     </item>
     <item>
       <title>Confluence</title>
-      <link>http://localhost:1313/tags/confluence/</link>
+      <link>https://loganrules.net/tags/confluence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/confluence/</guid>
+      <guid>https://loganrules.net/tags/confluence/</guid>
       <description></description>
     </item>
     <item>
       <title>JIRA</title>
-      <link>http://localhost:1313/tags/jira/</link>
+      <link>https://loganrules.net/tags/jira/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jira/</guid>
+      <guid>https://loganrules.net/tags/jira/</guid>
       <description></description>
     </item>
     <item>
       <title>JQuery</title>
-      <link>http://localhost:1313/tags/jquery/</link>
+      <link>https://loganrules.net/tags/jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jquery/</guid>
+      <guid>https://loganrules.net/tags/jquery/</guid>
       <description></description>
     </item>
     <item>
       <title>Maven</title>
-      <link>http://localhost:1313/tags/maven/</link>
+      <link>https://loganrules.net/tags/maven/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/maven/</guid>
+      <guid>https://loganrules.net/tags/maven/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring</title>
-      <link>http://localhost:1313/tags/spring/</link>
+      <link>https://loganrules.net/tags/spring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/spring/</guid>
+      <guid>https://loganrules.net/tags/spring/</guid>
       <description></description>
     </item>
   </channel>
