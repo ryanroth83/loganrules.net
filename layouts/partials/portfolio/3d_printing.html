@@ -1,17 +1,21 @@
-<section id="3d_printing" class="resume-section p-3 p-lg-5 d-flex flex-column">
-  <h2>3D Printing</h2>
-  <p>Welcome to the 3D Printing section! Here you'll find projects, tips, and resources related to 3D printing.</p>
-  {{ $projects := index site.Data "3d_printing" }}
-  {{ if $projects }}
+<section>
+  <div id="3d_printing" style="margin-left: 3.5rem;">
+   <h2>3D Printing</h2>
+   <h3>Welcome to the 3D Printing section! Here you'll find projects, tips, and resources related to 3D printing.</h3>
     <ul>
-      {{ range $projects }}
-        <li>
-          <strong>{{ .name }}</strong>: {{ .description }}
-          {{ if .image }}<br><img src="{{ .image }}" alt="{{ .name }}" style="max-width:400px; height:300px; object-fit:cover;" />{{ end }}
+      <li>
+        <strong>Rocktopus</strong><br>
+        Dwayne Johnson as an octopus! You can find more about it on <a href="https://www.thingiverse.com/thing:5142294">Thingiverse</a>.
+        <ul>
+        <img src="/images/rocktopus.jpg" alt="Dell XPS 13" style="width:300px;">
         </li>
-      {{ end }}
     </ul>
-  {{ else }}
-    <p>No 3D printing projects available yet.</p>
-  {{ end }}
+      <li>
+        <strong>My Youtube Popup Sign</strong><br>
+        I made this sign to promote my YouTube channel. I made it with MakerLab and printed it on my Ender 3. 
+        </ul>
+        <img src="/images/Youtube 3d Print.jpg" alt="YouTube Popup Sign" style="width:300px;">
+       </li>
+      </ul>
+  <div>
 </section>
