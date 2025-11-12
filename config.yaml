@@ -25,6 +25,7 @@ params:
   - 3d_printing
   - my_tech
   - calculator
+  - bose321
   - Games
   google:
     analytics:
