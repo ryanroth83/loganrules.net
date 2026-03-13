@@ -74,7 +74,7 @@ div.skills-heading{
 }
 
 .tag::before {
-  background: #bb0303;
+  background: #fff;
   border-radius: 10px;
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
   content: '';
