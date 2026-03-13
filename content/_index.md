@@ -11,12 +11,16 @@ outputs:
 ---
 Hi, this is Logan Sneed's Website.
 <nav>
+
+   <nav class="homepage-nav">
   <ul>
     <li><a href="/my_tech/">My Tech</a></li>
     <li><a href="/3d/">3D Printing</a></li>
     <li><a href="/bose/">Bose 321</a></li>
     <li><a href="/youtube/">My Youtube Channel</a></li>
     <li><a href="/games/">My Games</a></li>
-
   </ul>
 </nav>
+
+
+
