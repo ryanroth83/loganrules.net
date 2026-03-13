@@ -9,4 +9,14 @@ outputs:
 - rss
 - json
 ---
-Hi, this is Logan Sneed's Website. I have a lot in here. I recomend using the nav bar to locate exactly where you want. Otherwise you may be scrolling for a while.
+Hi, this is Logan Sneed's Website.
+<nav>
+  <ul>
+    <li><a href="/my_tech/">My Tech</a></li>
+    <li><a href="/3d/">3D Printing</a></li>
+    <li><a href="/bose/">Bose 321</a></li>
+    <li><a href="/youtube/">My Youtube Channel</a></li>
+    <li><a href="/games/">My Games</a></li>
+
+  </ul>
+</nav>

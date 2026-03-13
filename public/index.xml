@@ -6,56 +6,42 @@
     <description>Recent content in Home on Logan Rules</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 17:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Atlassian Deployment Triggers</title>
-      <link>http://localhost:1313/projects/contributions/deploy-triggers/</link>
+      <title></title>
+      <link>http://localhost:1313/3d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/contributions/deploy-triggers/</guid>
-      <description>&lt;p&gt;Addressed pretty significant page load performance issue founde in larger deployments. Eliminates uses of intensive backend query, replacing it with an asynchronous API call against a lucene index. This change reduces page load from from 2+ minutes to nearly instant, with an incredibly responsive UI.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/3d/</guid>
+      <description>&lt;section id=&#34;3d_printing&#34; class=&#34;section-content&#34;&gt;&#xD;&#xA;&#xD;&#xA;  &lt;h2&gt;3D Printing&lt;/h2&gt;&#xD;&#xA;  &lt;p&gt;Welcome to the 3D Printing section! Here you&#39;ll find projects, tips, and resources related to 3D printing.&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;  &lt;article&gt;&#xD;&#xA;    &lt;h3&gt;My 3D Printer&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;&lt;strong&gt;Ender 3 v2&lt;/strong&gt;: My main printer for all my projects. Reliable, precise, and easy to use.&lt;/p&gt;&#xD;&#xA;    &lt;!-- ONLY the printer image is small --&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/ender3.webp&#34; alt=&#34;Ender 3 Printer&#34; style=&#34;width:250px; height:auto; display:block; margin-top:0.5rem;&#34;&gt;&#xD;&#xA;  &lt;/article&gt;&#xD;&#xA;&#xD;&#xA;  &lt;article&gt;&#xD;&#xA;    &lt;h3&gt;My 3D Printing Settings&lt;/h3&gt;&#xD;&#xA;    &lt;ul class=&#34;settings-list&#34;&gt;&#xD;&#xA;      &lt;li&gt;&lt;strong&gt;Print Temperature:&lt;/strong&gt; 210°C for PLA+, 200–205°C for Silk PLA (glossy finish)&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;&lt;strong&gt;Bed Temperature:&lt;/strong&gt; 60°C for PLA+ and Silk PLA&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;&lt;strong&gt;Print Speed:&lt;/strong&gt; 50mm/s normally, 30mm/s for detailed models, up to 75mm/s for quick prints&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;&lt;strong&gt;Supports:&lt;/strong&gt; Tree supports for overhangs and complex geometries&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;&lt;strong&gt;Infill:&lt;/strong&gt; 20% for most prints, 30%+ for functional parts&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;&lt;strong&gt;Cooling:&lt;/strong&gt; Enabled for PLA+ and Silk PLA; fan speed 100% after first few layers&lt;/li&gt;&#xD;&#xA;    &lt;/ul&gt;&#xD;&#xA;  &lt;/article&gt;&#xD;&#xA;&#xD;&#xA;  &lt;article&gt;&#xD;&#xA;    &lt;h3&gt;My 3D Printing Software&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;I use &lt;strong&gt;Cura&lt;/strong&gt; for slicing, &lt;strong&gt;MakerLab&lt;/strong&gt; for custom designs, &lt;strong&gt;Tinkercad&lt;/strong&gt; for beginner-friendly modeling, &lt;strong&gt;Printables&lt;/strong&gt; for downloading community models, and &lt;strong&gt;OctoPrint&lt;/strong&gt; to control prints remotely via OctoEverywhere.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Organically DevOps: Building Quality and Security into the Software Supply Chain at Liberty Mutual</title>
-      <link>http://localhost:1313/publications/alldaydevops/</link>
-      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/alldaydevops/</guid>
-      <description>&lt;p&gt;This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.&lt;/li&gt;&#xA;&lt;li&gt;Favor deep end-to-end accomplishments over broad but incremental steps forward. Focus on taking the right teams far before encouraging broad adoption.&lt;/li&gt;&#xA;&lt;li&gt;Centralize the platforms and tools that your teams shouldn’t be thinking about. Provide foundational services/commodities and let teams stay on purpose.&lt;/li&gt;&#xA;&lt;li&gt;Incorporate contributions from everyone; don’t stifle autonomy. Stay open to new ways of working.&lt;/li&gt;&#xA;&lt;li&gt;Challenge security policies, but respect intentions. Find new ways to enforce concerns without abandoning precaution.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/FsfKsqI07jM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Added Docker Build Status Badge to shields.io</title>
-      <link>http://localhost:1313/projects/contributions/shields-docker/</link>
-      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
-      <guid>http://localhost:1313/projects/contributions/shields-docker/</guid>
-      <description>&lt;p&gt;Shields.io is a massive library of badges that can be inserted into project README&amp;rsquo;s or websites displaying various statuses (code coverage, health, version, etc).  Support for docker was missing the current build health, and was a pretty trivial addition.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Schema.org Structured Data documentation fixes</title>
-      <link>http://localhost:1313/projects/contributions/schema-org/</link>
-      <pubDate>Tue, 07 Jan 2020 17:08:21 +0000</pubDate>
-      <guid>http://localhost:1313/projects/contributions/schema-org/</guid>
-      <description>&lt;p&gt;While adding &lt;em&gt;Structured Data&lt;/em&gt; to a client&amp;rsquo;s website I found some example JSON that was invalid.  Simple contribution to cleanup the user documentation providing syntactically valid JSON documents.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>BOSH release for Bamboo &amp; Remote Agents</title>
-      <link>http://localhost:1313/projects/creations/bosh-agents/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      <guid>http://localhost:1313/projects/creations/bosh-agents/</guid>
-      <description>&lt;p&gt;BOSH (Bosh Outer SHell) &amp;ldquo;&amp;hellip;&lt;em&gt; is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.&lt;/em&gt;&amp;rdquo; And it&amp;rsquo;s amazingly powerful. This examples uses BOSH to provision an Alassian vendor app running on JDK along with the support Postgres database and agents to support it.  The releases manages the health of services and will automatically provision, start/stop processes across the various services.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Atlassian Marketplace Plugins</title>
-      <link>http://localhost:1313/projects/creations/marketplace/</link>
+      <title></title>
+      <link>http://localhost:1313/bose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/creations/marketplace/</guid>
-      <description>&lt;p&gt;Multiple plugins used by thousands of teams that provide enhanced functionality of Atlassian’s core products (primarily JIRA and Bamboo) to enrich CI/CD capabilities, DevOps automation, or productivity. Functionality spans user interface, web services and persistence.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/bose/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;  .section-content {&#xD;&#xA;    padding-left: 1rem;&#xD;&#xA;    padding-right: 1rem;&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  .section-content article {&#xD;&#xA;    margin-left: 2rem;&#xD;&#xA;    margin-bottom: 2rem;&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  .section-content img {&#xD;&#xA;    max-width: 100%;&#xD;&#xA;    height: auto;&#xD;&#xA;    display: block;&#xD;&#xA;    margin-top: 0.5rem;&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  a {&#xD;&#xA;    color: #0077cc;&#xD;&#xA;    text-decoration: none;&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  a:hover {&#xD;&#xA;    text-decoration: underline;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;section id=&#34;bose321&#34; class=&#34;section-content&#34;&gt;&#xD;&#xA;&#xD;&#xA;  &lt;h2&gt;Welcome to the Bose 321 Section&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;  &lt;article&gt;&#xD;&#xA;    &lt;p&gt;This section is dedicated to the Bose 321 home theater system.&lt;/p&gt;&#xD;&#xA;  &lt;/article&gt;&#xD;&#xA;&#xD;&#xA;  &lt;article&gt;&#xD;&#xA;    &lt;h3&gt;Overview of Bose 321&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;The Bose 321 is a compact home theater system delivering powerful, immersive sound. I recently acquired an original system over 20 years old, and it still works perfectly. Despite lacking HDMI and expansion options, the Acoustimass subwoofer and stereo speakers produce clear, rich audio that outperforms modern TV speakers. The CD/DVD player is convenient and supports Audio and Data CDs, while the built-in FM/AM tuner works well even with simple antennas. The system includes three sets of RCA inputs, allowing multiple devices like a TV or phone to connect simultaneously. Setup is extremely simple—just connect power and speakers—and it’s ready to use immediately. Overall, the Bose 321 provides excellent sound quality, versatility, and ease of use. For questions or concerns, you can reach me at &lt;a href=&#34;mailto:Ljsneed11@gmail.com&#34;&gt;Ljsneed11@gmail.com&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Docker image for Bitbucket CI/CD Pipelines  &#34;shipit&#34;</title>
-      <link>http://localhost:1313/projects/creations/docker-marketplace/</link>
+      <title></title>
+      <link>http://localhost:1313/games/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/creations/docker-marketplace/</guid>
-      <description>&lt;p&gt;Provides required dependencies and additional utilities to simplify and codify the process of building, testing and delivering Atlassian plugins all the way to the live marketplace.&lt;ul&gt; &lt;li&gt;Executes integration/AUT level tests against all stated compatible versions for the product&lt;/li&gt;&lt;li&gt;Uploads generated artifact to Atlassian marketplace&lt;/li&gt;&lt;li&gt;Provides corresponding metadata indicating version, release notes, and compatibility&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/games/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;  .section-content {&#xD;&#xA;    padding-left: 1rem; /* general section padding */&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  .section-content article {&#xD;&#xA;    margin-left: 2rem; /* indent all articles */&#xD;&#xA;    margin-bottom: 2rem; /* space between games */&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  a {&#xD;&#xA;    color: #0077cc;&#xD;&#xA;    text-decoration: none;&#xD;&#xA;  }&#xD;&#xA;  a:hover {&#xD;&#xA;    text-decoration: underline;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;section id=&#34;Games&#34; class=&#34;section-content&#34;&gt;&#xD;&#xA;  &lt;h2&gt;Welcome to the Games Section&lt;/h2&gt;&#xD;&#xA;  &lt;p&gt;There are not very many games as of right now.&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;  &lt;article class=&#34;game&#34;&gt;&#xD;&#xA;    &lt;h3&gt;My First Game&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;Here is a link to download my game: &lt;a href=&#34;https://drive.google.com/file/d/1Mf9T6CsjvZ5LrB24MZt2zTyPyJ5Jrj8v/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Working Game.exe&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;  &lt;/article&gt;&#xD;&#xA;&#xD;&#xA;  &lt;article class=&#34;game&#34;&gt;&#xD;&#xA;    &lt;h3&gt;Recreation of Mario (15min)&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;Here is a link to download Mario: &lt;a href=&#34;https://drive.google.com/file/d/1IraRms4KdurKDwUZSdKFzBqohPy07-Y6/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Mario.exe&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/my_tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my_tech/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xD;&#xA;&lt;head&gt;&#xD;&#xA;  &lt;meta charset=&#34;UTF-8&#34;&gt;&#xD;&#xA;  &lt;title&gt;My Tech&lt;/title&gt;&#xD;&#xA;  &lt;style&gt;&#xD;&#xA;    .section-content {&#xD;&#xA;      margin-left: 3.5rem;&#xD;&#xA;    }&#xD;&#xA;    .tech-list img {&#xD;&#xA;      width: 200px;&#xD;&#xA;      display: block;&#xD;&#xA;      margin-top: 0.5rem;&#xD;&#xA;    }&#xD;&#xA;    .my-element {&#xD;&#xA;      margin-top: 80px;&#xD;&#xA;    }&#xD;&#xA;    .tech-sub-item img {&#xD;&#xA;      width: 150px;&#xD;&#xA;    }&#xD;&#xA;  &lt;/style&gt;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;&lt;section class=&#34;section-content&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;my-element&#34;&gt;&lt;/div&gt;&#xD;&#xA;  &lt;h2&gt;My Tech&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;  &lt;article&gt;&#xD;&#xA;    &lt;h3&gt;My Computers&lt;/h3&gt;&#xD;&#xA;    &lt;ul class=&#34;tech-list&#34;&gt;&#xD;&#xA;      &lt;li&gt;&#xD;&#xA;        &lt;strong&gt;Dell Vostro 230&lt;/strong&gt;&#xD;&#xA;        &lt;p&gt;Intel Core 2 Duo, 4GB RAM, 1TB SSD, AMD Radeon HD 4350. Currently running Ubuntu 24.04 LTS (originally Windows 7).&lt;/p&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/images/vostro230.jpg&#34; alt=&#34;Dell Vostro 230&#34;&gt;&#xD;&#xA;      &lt;/li&gt;&#xD;&#xA;      &lt;li&gt;&#xD;&#xA;        &lt;strong&gt;Custom Desktop&lt;/strong&gt;&#xD;&#xA;        &lt;p&gt;Ryzen 7 7700x, 32GB RAM, 7800 XT, 2TB NVMe SSD, MSI B650 P Wifi Pro. Main computer for gaming, 3D printing, and designing this site. &lt;a href=&#34;https://pcpartpicker.com/list/vWGcCw&#34; target=&#34;_blank&#34;&gt;PC Part Picker Build&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/youtube/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;  .my-element {&#xD;&#xA;    margin-top: 80px;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;section id=&#34;Youtube&#34; style=&#34;margin-left: 3.5rem;&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;my-element&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &lt;h2&gt;My Youtube Channel&lt;/h2&gt;&#xD;&#xA;     &lt;ul&gt;&#xD;&#xA;       &lt;strong&gt;Logan&#39;s Tech Gaming and Other Stuff&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;        &lt;p&gt;Welcome to my YouTube channel! Here you&#39;ll find a variety of content including tech reviews, gaming videos, and other interesting stuff.&lt;/p&gt;&#xD;&#xA;        &lt;p&gt;Feel free to check out my latest videos and subscribe for more updates!&lt;/p&gt;&#xD;&#xA;        &lt;a href=&#34;https://youtube.com/@logan_sneed&#34;&gt;Link to Youtube Channel&lt;/a&gt;&#xD;&#xA;      &lt;/ul&gt;&#xD;&#xA;        Some of my popular videos include:&#xD;&#xA;        &lt;li&gt;&#xD;&#xA;        How to use Winamp for Beginners&#xD;&#xA;        &lt;/li&gt;&#xD;&#xA;        &lt;li&gt;&#xD;&#xA;        How to use VLC for Beginners&#xD;&#xA;        &lt;/li&gt;&#xD;&#xA;  &lt;div&gt;&#xD;&#xA;&lt;/section&gt;</description>
     </item>
     <item>
       <title>Search Results</title>

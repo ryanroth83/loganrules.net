@@ -19,15 +19,6 @@ params:
   showBoards: false
   showCertifications: false
   showSocializations: true
-  sections:
-  - Youtube
-  - education
-  - 3d_printing
-  - my_tech
-  - dad
-  - calculator
-  - bose321
-  - Games
   google:
     analytics:
       trackerID: XX-123446-01
