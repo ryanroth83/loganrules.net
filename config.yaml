@@ -7,8 +7,8 @@ PygmentsCodeFencesGuessSyntax: true
 PygmentsStyle: monokai
 enableGitInfo: false
 params:
-  address: Clarksville, OH
-  email: ljsneed11@gmail.com
+  address: Ohio, USA
+  email: logan@loganrules.net
   favicon: /favicon.ico
   firstName: Logan
   lastName: Sneed
@@ -19,9 +19,6 @@ params:
   showBoards: false
   showCertifications: false
   showSocializations: true
-  google:
-    analytics:
-      trackerID: XX-123446-01
   handles:
   - name: Youtube
     link: https://www.youtube.com/@logan_sneed/
@@ -29,8 +26,8 @@ params:
     link: https://github.com/ljs2311/
   - name: Reddit
     link: https://www.reddit.com/user/Rare-Perspective-474/
-  - name: Amazon Music
-    link: https://music.amazon.com/profiles/g47jxp4h5mwzjagfhanzjpzzfu
+  - name: Steam
+    link: https://steamcommunity.com/profiles/76561199575895567/
 outputs:
   home:
   - HTML
