@@ -19,6 +19,7 @@ Hi, this is Logan Sneed's Website.
     <li><a href="/bose/">Bose 321</a></li>
     <li><a href="/youtube/">My Youtube Channel</a></li>
     <li><a href="/games/">My Games</a></li>
+    <li><a href="https://youtube.com/">Test</a></li>
   </ul>
 </nav>
 
