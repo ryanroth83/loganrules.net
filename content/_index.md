@@ -19,11 +19,7 @@ Hi, this is Logan Sneed's Website.
     <li><a href="/bose/">Bose 321</a></li>
     <li><a href="/youtube/">My Youtube Channel</a></li>
     <li><a href="/games/">My Games</a></li>
-<<<<<<< HEAD
-    <li><a href="/games/">Jerramiah IM WATCHING YOU</a></li>
-=======
     <li><a href="/4028/">4028 The Beak Squad</a></li>
->>>>>>> 122b25942f756f2cd9523413296603725409acc7
   </ul>
 </nav>
 
