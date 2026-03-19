@@ -19,7 +19,12 @@ Hi, this is Logan Sneed's Website.
     <li><a href="/bose/">Bose 321</a></li>
     <li><a href="/youtube/">My Youtube Channel</a></li>
     <li><a href="/games/">My Games</a></li>
-    <li><a href="/4028/">4028 The Beak Squad</a></li>
+    <li>
+      <a href="/4028/">
+        <img src="/images/beaksquad.jpg" alt="icon" style=width:16px; height16px; vertical-allign:middle;>
+        The Beak Squad
+      </a>
+    </li>
   </ul>
 </nav>
 
