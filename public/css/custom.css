@@ -1,0 +1,32 @@
+/* Navbar color */
+.navbar {
+  background-color: #FF5733 !important;
+}
+
+/* Dark mode for the entire site */
+body {
+    background-color: #121212; /* dark background */
+    color: #f5f5f5;           /* light text */
+    font-family: Arial, sans-serif;
+}
+
+/* Links */
+a {
+    color: #1e90ff;           /* bright link color */
+}
+a:hover {
+    color: #63b3ed;           /* lighter on hover */
+}
+
+/* Section content */
+.section-content {
+    background-color: #1e1e1e; /* slightly lighter than background for contrast */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}

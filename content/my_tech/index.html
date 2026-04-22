@@ -1,101 +1,98 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Tech</title>
-    <style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Tech</title>
+  <style>
+    .section-content {
+      margin-left: 3.5rem;
+    }
     .tech-list img {
       width: 200px;
       display: block;
       margin-top: 0.5rem;
     }
-    </style>
-  </head>
+    .my-element {
+      margin-top: 80px;
+    }
+    .tech-sub-item img {
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+<section class="section-content">
+  <div class="my-element"></div>
+  <h2>My Tech</h2>
 
-  <body style=" margin-left: 3.5rem;">
-    <h2>My Tech</h2>
-
+  <article>
     <h3>My Computers</h3>
     <ul class="tech-list">
       <li>
         <strong>Dell Vostro 230</strong>
-        <p>Intel Core 2 Duo, 4GB RAM, 1TB SSD, AMD Radeon HD 4350. Currently
-          running Ubuntu 24.04 LTS (originally Windows 7).</p>
+        <p>Intel Core 2 Duo, 4GB RAM, 1TB SSD, AMD Radeon HD 4350. Currently running Ubuntu 24.04 LTS (originally Windows 7).</p>
         <img src="/images/vostro230.jpg" alt="Dell Vostro 230">
       </li>
       <li>
         <strong>Custom Desktop</strong>
         <img src="/images/good_pc.webp" alt="Custom Desktop">
 
-        <table><tr><th>Component</th><th>Specs</th></tr><tr><td>CPU</td><td>Ryzen
-              7 7700X</td></tr><tr><td>GPU</td><td>RX 7800
-              XT</td></tr><tr><td>RAM</td><td>32GB
-              DDR5</td></tr><tr><td>Storage</td><td>2TB 990 Pro NVMe
-              SSD</td></tr><tr><td>MB</td><td>MSI B650 P Wifi
-              Pro</td></tr><tr><td>Case</td><td>Apevia X-Sniper -
-              Blue</td></tr><tr><td>PSU</td><td>Thermaltake
-              850W</td></tr></table>
-
+          <table><tr><th>Component</th><th>Specs</th></tr><tr><td>CPU</td><td>Ryzen 7 7700X</td></tr><tr><td>GPU</td><td>RX 7800 XT</td></tr><tr><td>RAM</td><td>32GB DDR5</td></tr><tr><td>Storage</td><td>2TB 990 Pro NVMe SSD</td></tr><tr><td>MB</td><td>MSI B650 P Wifi Pro</td></tr><tr><td>Case</td><td>Apevia X-Sniper - Blue</td></tr><tr><td>PSU</td><td>Thermaltake 850W</td></tr></table>
+        
         <ul class="tech-list tech-sub-item">
           <li>
             <strong>Spkpal Speakers</strong>
-            <p>2.1 system with subwoofer and satellites. Decent sound for
-              the price, used for music and gaming.</p>
+            <p>2.1 system with subwoofer and satellites. Decent sound for the price, used for music and gaming.</p>
             <img src="/images/speaker.jpg" alt="Speaker">
           </li>
         </ul>
       </li>
       <li>
         <strong>HP Pavilion 304 W</strong>
-        <p>Athlon XP, 640MB RAM, 40GB HDD, Cheap Gigabyte Motherboard.
-          Running Windows XP for retro gaming; tested Windows
-          98/2000/ME.</p>
+        <p>Athlon XP, 640MB RAM, 40GB HDD, Cheap Gigabyte Motherboard. Running Windows XP for retro gaming; tested Windows 98/2000/ME.</p>
         <img src="/images/304w.jpg" alt="HP Pavilion 304 W">
       </li>
       <li>
         <strong>Dell Latitude C600</strong>
-        <p>Pentium 4, 512MB RAM, 20GB HDD, 24x CD-ROM. Oldest laptop,
-          running Windows 2000; tested Windows 3.1 through 7.</p>
+        <p>Pentium 4, 512MB RAM, 20GB HDD, 24x CD-ROM. Oldest laptop, running Windows 2000; tested Windows 3.1 through 7.</p>
         <img src="/images/Lattitude_C600.webp" alt="Dell Latitude C600">
       </li>
       <li>
         <strong>Raspberry Pi 3B+</strong>
-        <p>1.4GHz CPU, 1GB RAM, 32GB Micro SD, 40-pin GPIO. Running
-          OctoPrint for 3D printer control; also used for experiments.
-          Raspberry Pi 2 and 5 also used for testing.</p>
+        <p>1.4GHz CPU, 1GB RAM, 32GB Micro SD, 40-pin GPIO. Running OctoPrint for 3D printer control; also used for experiments. Raspberry Pi 2 and 5 also used for testing.</p>
         <img src="/images/3B+.jpg" alt="Raspberry Pi 3B+">
-
+        
       </li>
     </ul>
+  </article>
 
+  <article>
     <h3>My Phone</h3>
     <ul class="tech-list">
       <li>
         <strong>S25 Ultra</strong>
-        <p>MediaTek Dimensity 9200+, 12GB RAM, 256GB Storage, 6.9" AMOLED,
-          5000mAh. Current phone, Android 16 with One UI 8.0. Huge upgrade
-          from S20 FE.</p>
+        <p>MediaTek Dimensity 9200+, 12GB RAM, 256GB Storage, 6.9" AMOLED, 5000mAh. Current phone, Android 16 with One UI 8.0. Huge upgrade from S20 FE.</p>
         <img src="/images/s25.jpg" alt="S25 Ultra">
       </li>
     </ul>
+  </article>
 
+  <article>
     <h3>My Consoles</h3>
     <ul class="tech-list">
       <li>
         <strong>Meta Quest 3S</strong>
-        <p>Snapdragon XR2 Gen 2, 8GB RAM, 128GB Storage, 2064x2208 per eye,
-          120Hz refresh rate.</p>
+        <p>Snapdragon XR2 Gen 2, 8GB RAM, 128GB Storage, 2064x2208 per eye, 120Hz refresh rate.</p>
         <img src="/images/quest.jpg" alt="Meta Quest 3S">
       </li>
       <li>
         <strong>Nintendo Wii</strong>
-        <p>1.25GHz CPU, 512MB RAM, 512MB Flash, 12x DVD Drive,
-          Wiimote/Nunchuk, Wii Fit Board.</p>
+        <p>1.25GHz CPU, 512MB RAM, 512MB Flash, 12x DVD Drive, Wiimote/Nunchuk, Wii Fit Board.</p>
         <img src="/images/wii.jpg" alt="Nintendo Wii">
       </li>
       <li>
         <strong>Sega Dreamcast</strong>
-        <p>200MHz CPU, 16MB RAM, 8MB Video RAM, 1MB Sound RAM, 56k Modem,
-          VMU.</p>
+        <p>200MHz CPU, 16MB RAM, 8MB Video RAM, 1MB Sound RAM, 56k Modem, VMU.</p>
         <img src="/images/dreamcast.jpg" alt="Sega Dreamcast">
       </li>
       <li>
@@ -104,6 +101,7 @@
         <img src="/images/flashback.jpg" alt="Atari Flashback 7">
       </li>
     </ul>
-
-  </body>
+  </article>
+</section>
+</body>
 </html>
