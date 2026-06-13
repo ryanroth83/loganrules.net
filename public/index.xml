@@ -31,6 +31,13 @@
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/clone_hero_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/clone_hero_setup/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html&gt;&#xD;&#xA;&lt;head&gt;&#xD;&#xA;    &lt;title&gt;Clone Hero&lt;/title&gt;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;    &lt;h1&gt;Clone Hero Setup&lt;/h1&gt;&#xD;&#xA;    &lt;p&gt;Welcome to the Clone Hero section where I go over how to use it with a Wiitar! You can use it to play guitar hero-style games with a real guitar controller. The only hardware you&#39;ll need is a Wiitar controller with a wiimote and a computer with the necessary software installed.&lt;/p&gt;&#xD;&#xA;    &lt;section&gt;&#xD;&#xA;        &lt;h2&gt;Software Needed&lt;/h2&gt;&#xD;&#xA;        &lt;p&gt;To use Clone Hero with a Wiitar, you&#39;ll need the following software:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/games/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/games/</guid>
