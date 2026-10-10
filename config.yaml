@@ -14,7 +14,7 @@ params:
   lastName: Sneed
   phone: 1-513-614-1513
   profileImage: /Logo.png
-  showQr: true
+  showQr: false
   showContact: false
   showBoards: false
   showCertifications: false
@@ -28,6 +28,8 @@ params:
     link: https://www.reddit.com/user/Rare-Perspective-474/
   - name: Steam
     link: https://steamcommunity.com/profiles/76561199575895567/
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/logan-james-sneed/
 outputs:
   home:
   - HTML

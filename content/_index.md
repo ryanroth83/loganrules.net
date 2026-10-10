@@ -14,11 +14,14 @@ Hi, this is Logan Sneed's Website.
 
    <nav class="homepage-nav">
   <ul>
+  <!--
     <li>
-      <a href="/my_tech/">
-        My Tech
+      <a 
+      href="/my_tech/">
+      My Tech
       </a> 
     </li>
+  -->
     <li>
       <a href="/3d/">
         3D Printing
