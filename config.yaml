@@ -13,7 +13,7 @@ params:
   firstName: Logan
   lastName: Sneed
   phone: 1-513-614-1513
-  profileImage: /Logo.png
+  profileImage: /Logo.jpg
   showQr: false
   showContact: false
   showBoards: false
@@ -40,3 +40,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+security:
+  allowContent:
+    - '^text/html$'
+    - '^text/org$'
+    - '^text/markdown$'
+  enableInlineShortcodes: false
