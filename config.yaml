@@ -40,9 +40,4 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-security:
-  allowContent:
-    - '^text/html$'
-    - '^text/org$'
-    - '^text/markdown$'
   enableInlineShortcodes: false
